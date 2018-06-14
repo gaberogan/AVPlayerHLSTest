@@ -344,7 +344,7 @@ extension AssetPersistenceManager: AVAssetDownloadDelegate {
         for value in loadedTimeRanges {
             let loadedTimeRange: CMTimeRange = value.timeRangeValue
             percentComplete +=
-                loadedTimeRange.duration.getSeconds() / timeRangeExpectedToLoad.duration.getSeconds()
+                loadedTimeRange.duration.seconds / timeRangeExpectedToLoad.duration.seconds
         }
 
         var userInfo = [String: Any]()

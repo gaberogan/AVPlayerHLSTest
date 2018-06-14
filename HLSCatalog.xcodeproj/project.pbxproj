@@ -26,8 +26,8 @@
 
 /* Begin PBXFileReference section */
 		428139EE1CE44B7300972264 /* HLSCatalog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HLSCatalog.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		48D42DD048F42C9000000001 /* SampleCode.xcconfig */ = {isa = PBXFileReference; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
-		48ED6C9048EE797000000001 /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE.txt; sourceTree = "<group>"; };
+		A4D2B370A4D2B42000000001 /* SampleCode.xcconfig */ = {isa = PBXFileReference; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
+		A4D4EDC0A4D5A1F000000001 /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE.txt; sourceTree = "<group>"; };
 		AFE0E8C020ACEA9D000A59F0 /* Streams.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Streams.plist; sourceTree = "<group>"; };
 		AFE0E8C120ACEA9D000A59F0 /* AssetListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssetListTableViewController.swift; sourceTree = "<group>"; };
 		AFE0E8C320ACEA9D000A59F0 /* AssetListManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssetListManager.swift; sourceTree = "<group>"; };
@@ -63,8 +63,8 @@
 				AFE0E8E220ACEAAF000A59F0 /* README.md */,
 				AFE0E8BF20ACEA9D000A59F0 /* HLSCatalog */,
 				428139EF1CE44B7300972264 /* Products */,
-				48F42AF048F4F57000000001 /* Configuration */,
-				48ED779048ED737000000001 /* LICENSE */,
+				A4D2FAB0A4D2F90000000001 /* Configuration */,
+				A4D4D0A0A4D4D07000000001 /* LICENSE */,
 			);
 			sourceTree = "<group>";
 		};
@@ -76,21 +76,21 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		48ED779048ED737000000001 /* LICENSE */ = {
+		A4D2FAB0A4D2F90000000001 /* Configuration */ = {
 			isa = PBXGroup;
 			children = (
-				48ED6C9048EE797000000001 /* LICENSE.txt */,
+				A4D2B370A4D2B42000000001 /* SampleCode.xcconfig */,
+			);
+			name = Configuration;
+			sourceTree = "<group>";
+		};
+		A4D4D0A0A4D4D07000000001 /* LICENSE */ = {
+			isa = PBXGroup;
+			children = (
+				A4D4EDC0A4D5A1F000000001 /* LICENSE.txt */,
 			);
 			name = LICENSE;
 			path = LICENSE;
-			sourceTree = "<group>";
-		};
-		48F42AF048F4F57000000001 /* Configuration */ = {
-			isa = PBXGroup;
-			children = (
-				48D42DD048F42C9000000001 /* SampleCode.xcconfig */,
-			);
-			name = Configuration;
 			sourceTree = "<group>";
 		};
 		AFE0E8BF20ACEA9D000A59F0 /* HLSCatalog */ = {
@@ -245,7 +245,7 @@
 /* Begin XCBuildConfiguration section */
 		428139FE1CE44B7300972264 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 48D42DD048F42C9000000001 /* SampleCode.xcconfig */;
+			baseConfigurationReference = A4D2B370A4D2B42000000001 /* SampleCode.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -303,7 +303,7 @@
 		};
 		428139FF1CE44B7300972264 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 48D42DD048F42C9000000001 /* SampleCode.xcconfig */;
+			baseConfigurationReference = A4D2B370A4D2B42000000001 /* SampleCode.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -354,7 +354,7 @@
 		};
 		42813A011CE44B7300972264 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 48D42DD048F42C9000000001 /* SampleCode.xcconfig */;
+			baseConfigurationReference = A4D2B370A4D2B42000000001 /* SampleCode.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -375,7 +375,7 @@
 		};
 		42813A021CE44B7300972264 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 48D42DD048F42C9000000001 /* SampleCode.xcconfig */;
+			baseConfigurationReference = A4D2B370A4D2B42000000001 /* SampleCode.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;

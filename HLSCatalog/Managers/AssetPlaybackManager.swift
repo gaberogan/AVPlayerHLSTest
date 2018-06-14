@@ -135,9 +135,9 @@ class AssetPlaybackManager: NSObject {
     
     @objc
     func handleTimebaseRateChanged(_ notification: Notification) {
-        if CMTimebase.typeID == CFGetTypeID(notification.object as CFTypeRef) {
+        if CMTimebaseGetTypeID() == CFGetTypeID(notification.object as CFTypeRef) {
             let timebase = notification.object as! CMTimebase
-            let rate: Double = timebase.rate
+            let rate: Double = CMTimebaseGetRate(timebase)
             perfMeasurements?.rateChanged(rate: rate)
         }
     }
@@ -160,5 +160,5 @@ protocol AssetPlaybackDelegate: class {
 
 extension Notification.Name {
     /// Notification for when a timebase changed rate
-    static let TimebaseEffectiveRateChangedNotification = Notification.Name(rawValue: CMTimebase.effectiveRateChangedNotification as String)
+    static let TimebaseEffectiveRateChangedNotification = Notification.Name(rawValue: kCMTimebaseNotification_EffectiveRateChanged as String)
 }

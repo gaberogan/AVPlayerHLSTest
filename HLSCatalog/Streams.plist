@@ -14,5 +14,11 @@
 		<key>playlist_url</key>
 		<string>https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_ts/master.m3u8</string>
 	</dict>
+	<dict>
+		<key>name</key>
+		<string>KCBS Bug Stream</string>
+		<key>playlist_url</key>
+		<string>https://qa-52-5-119-208.wostreaming.net/qa-audacy-kcbsamaac-im.m3u8?newMeta=true&amp;startTs=1678216325</string>
+	</dict>
 </array>
 </plist>
